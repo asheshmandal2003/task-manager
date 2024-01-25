@@ -1,0 +1,23 @@
+{
+  "name": "task-manager-server",
+  "version": "1.0.0",
+  "description": "Backend server of task-managment application",
+  "main": "index.js",
+  "repository": "https://github.com/asheshmandal2003/task-manager.git",
+  "author": "Ashesh Mandal",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "aws-sdk": "^2.1543.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.1",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "helmet": "^7.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.1.1",
+    "passport": "^0.7.0",
+    "passport-local-mongoose": "^8.0.0",
+    "uuid": "^9.0.1"
+  }
+}
