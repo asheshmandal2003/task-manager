@@ -71,7 +71,8 @@ Welcome to task management application. Here you can create your task using crea
 
    ```shell
    yarn dev
-   or yarn dev --port ${port}
+   or 
+   yarn dev --port ${port}
    ```
 11. Navigate to the aws-task-manager directory(from project directory):
     ```shell
