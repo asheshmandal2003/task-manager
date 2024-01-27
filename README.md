@@ -68,7 +68,7 @@ Welcome to task management application. Here you can create your task using crea
    yarn
    ```
 10. Start frontend development server:
-    ```bash
+    ```shell
    yarn dev
    or 
    yarn dev --port ${port}
