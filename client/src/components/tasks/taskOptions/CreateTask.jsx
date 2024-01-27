@@ -33,7 +33,7 @@ export default function CreateTask() {
     })
       .then((res) => {
         setCreating(false);
-        toast.success(`${res.data.message}`, {
+        toast.success(`Task Created!`, {
           position: "top-right",
           autoClose: 5000,
           hideProgressBar: false,
