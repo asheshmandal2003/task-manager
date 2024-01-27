@@ -68,11 +68,12 @@ Welcome to task management application. Here you can create your task using crea
    yarn
    ```
 10. Start frontend development server:
-    ```shell
+    
+   ```shell
    yarn dev
    or 
    yarn dev --port ${port}
-    ```
+   ```
 
 11. Navigate to the aws-task-manager directory(from project directory):
     ```shell
