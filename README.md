@@ -68,12 +68,12 @@ Welcome to task management application. Here you can create your task using crea
    yarn
    ```
 10. Start frontend development server:
-
-   ```shell
+    ```bash
    yarn dev
    or 
    yarn dev --port ${port}
-   ```
+    ```
+
 11. Navigate to the aws-task-manager directory(from project directory):
     ```shell
     cd aws-task-manager
@@ -86,12 +86,16 @@ Welcome to task management application. Here you can create your task using crea
     ```shell
     npm i -g serverless
     ```
-14. Create an AWS IAM user and create an access key for the IAM user and copy the `access-key-id` and `secret-access-key`.
+14. Create an AWS IAM user attached with required policies, and create an access key for the IAM user and copy the  `access-key-id` and `secret-access-key`.
 
 15. Connect AWS with serverless
     ```bash
     export AWS_ACCESS_KEY_ID=${yourIAMaccesskeyid}
     export AWS_SECRET_ACCESS_KEY=${yourIAMsecretaccesskey}
+    ```
+16. Deploy serverless:
+    ```bash
+    sls deploy
     ```
 
 ## Project Structure
